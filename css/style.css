@@ -64,7 +64,8 @@ header .topbar .container{
 }
 
 /* MAIN */
-section{
+section,
+footer{
   padding: 40px 0;
 }
 
@@ -76,4 +77,31 @@ section:last-child .container{
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+}
+
+/* FOOTER */
+footer{
+  background-color: #24272A;
+  color: white;
+  height: 600px;  /* DEBUG */
+}
+.footer-top{
+  height: 400px;  /* DEBUG */
+}
+
+.footer-top .social{
+  width: 25%;
+}
+
+.footer-top .menu{
+  width: 75%;
+}
+
+.footer-top .menu .col{
+  flex-basis: 25%;
+}
+
+.footer-bottom{
+  padding: 10px 0;
+  justify-content: space-between;
 }
