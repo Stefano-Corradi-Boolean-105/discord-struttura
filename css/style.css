@@ -42,8 +42,8 @@ body{
 
 /* HEADER */
 header .topbar {
-  background-color: #255EE9;
   height: 80px;
+  background-color: #255EE9;
 }
 header .topbar .container{
   justify-content: space-between;
@@ -51,11 +51,20 @@ header .topbar .container{
   height: 100%;
 }
 
+.menu ul{
+  list-style: none;
+}
+
+.menu ul li{
+  padding: 0 15px;
+}
+
+
 #jumbotron{
-  height: 500px;
-  background-color: #255EE9;
   justify-content: center;
   align-items: center;
+  height: 500px;
+  background-color: #255EE9;
 }
 
 #jumbotron .content{
