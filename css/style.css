@@ -71,3 +71,9 @@ section{
 section .container{
   height: 400px; /* DEBUG */
 }
+
+section:last-child .container{
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
